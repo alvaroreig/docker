@@ -16,7 +16,7 @@ RUN \
   apt-get install -y nodejs && \
 
   # Clone repository and install dependencies
-  git clone --branch 1.1.1 https://github.com/alvaroreig/pocket2kindle.git && \
+  git clone https://github.com/alvaroreig/pocket2kindle.git && \
   cd pocket2kindle && \
   npm install && \
 
